@@ -1,10 +1,11 @@
-export default function Navbar() {
+import Main from "./components/Main"
+import Navbar from "./components/Navbar"
+
+export default function App() {
     return (
-        <header>
-            <nav>
-                <img src="/images/react-logo.png" alt="React logo" />
-                <span>ReactFacts</span>
-            </nav>
-        </header>
+        <>
+            <Navbar />
+            <Main />
+        </>
     )
 }
